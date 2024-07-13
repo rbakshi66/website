@@ -111,3 +111,24 @@ window.addEventListener("resize", function () {
 
   moveSliderItem();
 });
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        $(document).ready(function() {
+            $('#contactForm').on('submit', function(e) {
+                e.preventDefault(); // Prevent default form submission
+
+                $.ajax({
+                    url: 'https://api.web3forms.com/submit',
+                    method: 'POST',
+                    data: $(this).serialize(),
+                    success: function(response) {
+                        alert('Form submitted successfully!');
+                        // Optionally, clear the form
+                        $('#contactForm')[0].reset();
+                    },
+                    error: function(error) {
+                        alert('There was an error submitting the form.');
+                    }
+                });
+            });
+        });
