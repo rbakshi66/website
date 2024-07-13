@@ -19,7 +19,7 @@
 
 To view a live example, **[click here](https://rbakshi66.github.io/website/)**
 <br>
-To view code, **[click here](https://rbakshi66.github.io/website)**
+To view code, **[click here](https://rbakshi66.github.io/)**
 
 ## Sections 📚
 ✔️ About \
