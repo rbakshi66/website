@@ -542,13 +542,15 @@ body.nav-active { overflow: hidden; }
 }
 
 .card-text {
-  width: 450%;
-  padding-right: 50px;
+  display: flex;
+  width: auto;
   text-align: justify; /* Make the text take the full width of the content */
 }
 
 .card.topic-card {
-  width: 100%; /* Make the card take the full width of the container */
+  display: flex;
+  height: auto;
+  width: auto; /* Make the card take the full width of the container */
   padding: 20px; /* Optional: Add some padding */
   margin: 20px;
 }
@@ -1030,6 +1032,7 @@ body.nav-active { overflow: hidden; }
     --section-padding: 100px;
 
   }
+
 
 
 
