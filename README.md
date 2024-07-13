@@ -5,7 +5,7 @@
 ### Website Preview
 <p align="center"> 
   <kbd>
-   <a href="https://rbakshi66.github.io" target="_blank"><img src="./assets/images">
+   <a href="https://rbakshi66.github.io" target="_blank"><img src="website/page.png">
   </a>
   </kbd>
 </p>
