@@ -112,7 +112,6 @@ window.addEventListener("resize", function () {
   moveSliderItem();
 });
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         $(document).ready(function() {
             $('#contactForm').on('submit', function(e) {
                 e.preventDefault(); // Prevent default form submission
