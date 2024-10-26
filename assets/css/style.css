@@ -261,7 +261,7 @@ body.nav-active { overflow: hidden; }
   font-size: var(--fontSize-6);
   font-weight: var(--weight-bold);
   max-width: max-content;
-  display: flex;
+  padding: 10px 16px;
   align-items: center;
   gap: 3px;
   transition: var(--transition-1);
@@ -270,6 +270,7 @@ body.nav-active { overflow: hidden; }
 .btn:is(:hover, :focus-visible) { background-position: right; }
 
 .btn-primary {
+
   padding: 8px 16px;
   border-radius: var(--radius-6);
 }
